@@ -11,7 +11,7 @@ vector_dim = len(LAST_NAME)
 sys_config = {
     "operator": LAST_NAME,
     "auth_id": STUDENT_ID,
-    "seed_digit": seed_digit,
+    "base_seed": seed_digit,
     "id_checksum": id_checksum,
     "vector_dim": vector_dim,
     "status": "INITIALIZED" # pyright: ignore[reportUndefinedVariable]
